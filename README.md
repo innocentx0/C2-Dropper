@@ -21,8 +21,8 @@ Example: `127.0.0.1` becomes `31 32 37 2E 30 2E 30 2E 31`
 2. Update the Source
 Locate the hs[] variable in the code and replace the hex string with your encoded IP:
 #### Example for IP 127.0.0.1
-`char hs[] = "31 32 37 2E 30 2E 30 2E 31"; `
-3. Build
+`char hs[] = "31 32 37 2E 30 2E 30 2E 31"; ` <br>
+3. Build <br>
 Compile using any Windows-compatible C compiler (e.g., MinGW/GCC):
 `gcc main.c -o loader.exe`
 
