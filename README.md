@@ -11,7 +11,7 @@ This repository contains a lightweight, staged dropper written in C, designed fo
 ## Evasion Features
 - Static String Obfuscation: The C2 server's IP address is not stored as a plaintext string. This prevents simple detection via strings or basic signature-based scanners.
 - Hex-Encoded Transport: The IP is reconstructed at runtime from a hex-encoded array.
-- Living off the Land (LotL): Utilizes native Windows binaries (certutil) for payload retrieval to minimize the introduction of suspicious new tools on the system.
+- Living off the Land (LotL): Utilizes native binaries for payload retrieval to minimize the introduction of suspicious new tools on the system.
 
 ## Configuration (Obfuscated Version: obf3.c)
 To use the obfuscated version, you must manually encode your C2 server IP address into hexadecimal.
