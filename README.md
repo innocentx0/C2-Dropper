@@ -19,7 +19,7 @@ Example for IP 127.0.0.1
 `char hs[] = "31 32 37 2E 30 2E 30 2E 31"; ` <br>
 3. Build <br>
 Compile using any Windows-compatible C compiler (e.g., MinGW/GCC):
-`gcc main.c -o loader.exe`
+`gcc obf3.c -o agent.exe`
 
 # Disclaimer
 This project is for authorized security testing and educational purposes only. Using this tool against systems without prior consent is illegal.
